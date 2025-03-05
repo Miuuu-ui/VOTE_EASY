@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MyVote Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MyVote</h1>
+        
+        <!-- Profile Picture -->
+        <img id="profilePic" class="profile-pic" src="prof.png" alt="Profile Picture">
+
+        <!-- User Information -->
+        <div class="user-info">
+            <p><strong>Ashutosh Parashar</strong></p>
+            <p>VOTER ID: <span id="voterId">XXXXXXXX</span></p>
+        </div>
+
+        <!-- Voting Constituency and Status -->
+        <div class="status-section">
+            <h2><u>Voting Constituency</u></h2>
+            <p><strong>Vermasal</strong></p>
+            <p>Status: <span style="color: #0f71e0;">Registered</span></p>
+        </div>
+
+        <!-- Information Centre -->
+        <div class="info-section">
+            <h3>Information Centre</h3>
+            <p><strong>Important Notice:</strong> Please ensure registration on the electoral roll before voting.</p>
+            <p><a href="#">Watch an instructional video on how to use MyVote</a></p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation"> 
+            <a href="home.html"><button onclick="navigate('Home')">Home</button></a>
+            <a href="vote.html"><button onclick="navigate('Vote')">Vote</button></a>
+           <a href=""> <button onclick="navigate('Profile')">Help</button></a>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
