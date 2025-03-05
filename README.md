@@ -1,5 +1,5 @@
 # VOTE_EASY
-#"Cast Your Vote, Not Your Doubts: Secure, Tech-Savvy Voting for the Modern Generation!"
+# "Cast Your Vote, Not Your Doubts: Secure, Tech-Savvy Voting for the Modern Generation!"
 Our project develops a secure, accessible mobile voting app to empower Indian democracy by overcoming barriers faced by citizens with disabilities, seniors, remote populations, and NRIs. The app prioritizes inclusivity with features like screen reader compatibility, voice control, and multilingual support. Robust security measures, including biometric verification and blockchain for transparency, ensure voting integrity. A hybrid approach combines the app with assisted voting centers to bridge the digital divide. Integration with government databases like the Election Commission streamlines verification. By enabling voting from anywhere, we aim to boost voter turnout, strengthen democracy, and ensure every voice is heard. 
 
 #Multilingual Support 
