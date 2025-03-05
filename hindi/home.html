@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MyVote Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MyVote</h1>
+
+        <img id="profilePic" class="profile-pic" src="prof.png" alt="प्रोफ़ाइल पिक्चर">
+        
+        <div class="user-info">
+        <p><strong>आशुतोष पाराशर</strong></p>
+        <p>मतदाता पहचान पत्र: <span id="voterId">XXXXXXXX</span></p>
+        </div>
+        
+        <div class="status-section">
+        <h2><u>मतदान निर्वाचन क्षेत्र</u></h2>
+        <p><strong>वर्मासाल</strong></p>
+        <p>स्थिति: <span style="color: #0f71e0;">पंजीकृत</span></p>
+        </div>
+        
+        <div class="info-section">
+        <h3>सूचना केंद्र</h3>
+        <p><strong>महत्वपूर्ण सूचना:</strong> कृपया मतदान से पहले मतदाता सूची में पंजीकरण सुनिश्चित करें।</p>
+        <p><a href="#">MyVote का उपयोग कैसे करें, इस पर एक निर्देशात्मक वीडियो देखें</a></p>
+        </div>
+        
+        <div class="navigation">
+        <a href="home.html"><button onclick="navigate('Home')">होम</button></a>
+        <a href="vote.html"><button onclick="navigate('Vote')">मतदान करें</button></a>
+        <a href=""> <button onclick="navigate('Profile')">सहायता</button></a>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
