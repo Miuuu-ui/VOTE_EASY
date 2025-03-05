@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MyVote Home</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MyVote</h1>
+        
+        <!-- Profile Picture -->
+        <img id="profilePic" class="profile-pic" src="prof.png" alt="Profile Picture">
+
+        <!-- User Information -->
+        <div class="user-info">
+            <p><strong>Ashutosh Parashar</strong></p>
+            <p>VOTER ID: <span id="voterId">XXXXXXXX</span></p>
+        </div>
+
+        <!-- Voting Constituency and Status -->
+        <div class="status-section">
+            <h2><u>Voting Constituency</u></h2>
+            <p><strong>Vermasal</strong></p>
+            <p>Status: <span style="color: #0f71e0;">Registered</span></p>
+        </div>
+
+        <!-- Information Centre -->
+        <div class="info-section">
+            <h3>তথ্য কেন্দ্র</h3>
+            <p><strong>গুরুত্বপূর্ণ বিজ্ঞপ্তি:</strong> ভোট দেওয়ার আগে ভোটার তালিকায় নিবন্ধন নিশ্চিত করুন।</p>
+            <p><a href="#">মাইভোট কীভাবে ব্যবহার করবেন সে সম্পর্কে একটি নির্দেশমূলক ভিডিও দেখুন</a></p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation"> 
+            <a href="home.html"><button onclick="navigate('Home')">হোম</button></a>
+            <a href="vote.html"><button onclick="navigate('Vote')">ভোট দিন</button></a>
+            <a href=""> <button onclick="navigate('Profile')">সহায়তা</button></a>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>

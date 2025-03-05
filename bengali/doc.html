@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Documents</title>
+    <link rel="stylesheet" href="doc.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ডকুমেন্ট আপলোড করুন</h1>
+        
+        <!-- Passport Size Photo Upload -->
+        <div class="upload-section">
+            <label class="upload-label">আপনার পাসপোর্ট সাইজের ছবি আপলোড করুন</label>
+            <input type="file" id="photoUpload" class="file-input" accept="image/*">
+            <label for="photoUpload" class="file-upload-btn">ফাইল নির্বাচন করুন</label>
+            <div id="photoFileName" class="file-name"></div>
+        </div>
+
+        <!-- ID Proof Upload -->
+        <div class="upload-section">
+            <label class="upload-label">একটি বৈধ পরিচয়পত্রের প্রমাণ আপলোড করুন</label>
+            <input type="file" id="idProofUpload" class="file-input" accept="application/pdf,image/*">
+            <label for="idProofUpload" class="file-upload-btn">ফাইল নির্বাচন করুন</label>
+            <div id="idProofFileName" class="file-name"></div>
+        </div>
+
+        <!-- Address Proof Upload -->
+        <div class="upload-section">
+            <label class="upload-label">একটি বৈধ ঠিকানার প্রমাণ আপলোড করুন</label>
+            <input type="file" id="addressProofUpload" class="file-input" accept="application/pdf,image/*">
+            <label for="addressProofUpload" class="file-upload-btn">ফাইল নির্বাচন করুন</label>
+            <div id="addressProofFileName" class="file-name"></div>
+        </div>
+
+        <!-- Continue Button -->
+        <a href="home.html"><button id="continueBtn" class="continue-btn" disabled>মাইভোটে চালিয়ে যান</button></a>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="error-message"></div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
