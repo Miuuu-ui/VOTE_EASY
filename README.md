@@ -40,11 +40,19 @@ Our project develops a secure, accessible mobile voting app to empower Indian de
 
 # TECHNOLOGIES USED:
 o Node.js (version – 18.14.0)
-o Web3.js (version – 1.8.2) 
-o Truffle (version – 5.7.6) 
+
+o Web3.js (version – 1.8.2)
+
+o Truffle (version – 5.7.6)
+
 o Solidity (version – 0.5.16) 
+
 o Ganache (version – 7.7.3) 
+
 o Metamask 
-o Python (version – 3.9) 
+
+o Python (version – 3.9)
+
 o FastAPI 
+
 o MySQL Database (port – 3306) 
